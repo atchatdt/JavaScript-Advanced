@@ -1,4 +1,4 @@
-// Khác bind=> bind trả về dạng hàm
+// Khác bind => bind trả về dạng hàm
 function greeting(){
     console.log(`Hi! ${this.name}. I am ${this.age}`);
 }
