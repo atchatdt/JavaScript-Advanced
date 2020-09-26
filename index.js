@@ -1,7 +1,12 @@
-exports.spacing = function (number = 1) {
+let spacing = (number = 1) => {
     console.log(`\n\n${number} ----------------------------------------------------------------------\n`);
 }
 
-exports.clear= () => {
+let clear = () => {
     console.clear()
+}
+
+module.exports = {
+    spacing,
+    clear
 }
