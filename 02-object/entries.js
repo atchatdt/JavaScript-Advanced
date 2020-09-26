@@ -1,5 +1,5 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
-
+// convert object  to array => ["key": "value"]
 
 const obj = {
     foo: 'bar',
